@@ -1,0 +1,55 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100vh;
+  padding: 2rem;
+  background-color: #eaedf0;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.introContent {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 3rem;
+}
+
+.introContentText {
+  width: 35vw;
+}
+
+.introNavBar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+  font-size: 16px !important;
+  opacity: 0.95;
+}
+
+.aboutLink:hover {
+  color: blueviolet;
+}
+.experienceLink:hover {
+  color: blueviolet;
+}
+.educationLink:hover {
+  color: blueviolet;
+}
+.projectsLink:hover {
+  color: blueviolet;
+}
+.achievementsLink:hover {
+  color: blueviolet;
+}
+.contactLink:hover {
+  color: blueviolet;
+}
